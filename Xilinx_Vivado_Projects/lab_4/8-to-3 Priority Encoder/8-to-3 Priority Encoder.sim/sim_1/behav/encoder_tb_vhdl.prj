@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../8-to-3 Priority Encoder.srcs/sim_1/new/encoder_tb.vhd"
+
+# Do not sort compile order
+nosort

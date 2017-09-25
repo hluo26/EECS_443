@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Feb 15 16:32:26 2017
+# Process ID: 6532
+# Current directory: H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4560 H:\EECS_443\Xilinx_Vivado_Projects\lab_4\8-to-1 Multiplexer\8-to-1 Multiplexer.xpr
+# Log file: H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer/vivado.log
+# Journal file: H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer/8-to-1 Multiplexer.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 801.059 ; gain = 152.082
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 15 16:33:38 2017...

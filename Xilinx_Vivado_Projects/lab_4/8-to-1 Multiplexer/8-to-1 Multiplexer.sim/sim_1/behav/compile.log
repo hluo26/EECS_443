@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer/8-to-1 Multiplexer.srcs/sources_1/new/Mux4to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux4to1
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer/8-to-1 Multiplexer.srcs/sources_1/new/Mux2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer/8-to-1 Multiplexer.srcs/sources_1/new/Mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux8to1
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer/8-to-1 Multiplexer.srcs/sim_1/new/Mux_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_tb

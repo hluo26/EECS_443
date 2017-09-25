@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Feb 15 14:39:48 2017
+# Process ID: 2092
+# Current directory: H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer/8-to-1 Multiplexer.runs/synth_1
+# Command line: vivado.exe -log Mux8to1.vds -mode batch -messageDb vivado.pb -notrace -source Mux8to1.tcl
+# Log file: H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer/8-to-1 Multiplexer.runs/synth_1/Mux8to1.vds
+# Journal file: H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-1 Multiplexer/8-to-1 Multiplexer.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Mux8to1.tcl -notrace

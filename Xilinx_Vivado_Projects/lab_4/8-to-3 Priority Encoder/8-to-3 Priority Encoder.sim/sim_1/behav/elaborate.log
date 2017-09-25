@@ -1,0 +1,14 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 61f658df086c4055872c118c78cfd16e --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot encoder_tb_behav xil_defaultlib.encoder_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-122] encoder remains a black-box since it has no binding entity [H:/EECS_443/Xilinx_Vivado_Projects/lab_4/8-to-3 Priority Encoder/8-to-3 Priority Encoder.srcs/sim_1/new/encoder_tb.vhd:52]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.encoder_tb
+Built simulation snapshot encoder_tb_behav
