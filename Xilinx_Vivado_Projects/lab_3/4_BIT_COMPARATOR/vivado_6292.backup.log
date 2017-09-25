@@ -1,0 +1,184 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Feb 01 14:58:44 2017
+# Process ID: 6292
+# Current directory: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4468 H:\EECS_443\Xilinx_Vivado_Projects\lab_2\4_BIT_COMPARATOR\4_BIT_COMPARATOR.xpr
+# Log file: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/vivado.log
+# Journal file: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 781.633 ; gain = 126.375
+update_compile_order -fileset sources_1
+remove_files H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/imports/lab_2/4_BIT_COMPARATOR.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+file mkdir H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new
+close [ open H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd w ]
+add_files H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+[Wed Feb 01 15:31:11 2017] Launched impl_1...
+Run output will be captured here: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:01:37 . Memory (MB): peak = 832.074 ; gain = 0.000
+INFO: [Common 17-344] 'launch_runs' was cancelled
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed Feb 01 15:33:33 2017] Launched impl_1...
+Run output will be captured here: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:01:32 . Memory (MB): peak = 832.074 ; gain = 0.000
+remove_files H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd w ]
+add_files H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+reset_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 848.988 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+[Wed Feb 01 16:11:14 2017] Launched impl_1...
+Run output will be captured here: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:01:32 . Memory (MB): peak = 848.988 ; gain = 0.000
+reset_run synth_1
+reset_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 850.051 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+[Wed Feb 01 16:19:10 2017] Launched impl_1...
+Run output will be captured here: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:01:32 . Memory (MB): peak = 850.051 ; gain = 0.000
+reset_run synth_1
+reset_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 850.051 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+[Wed Feb 01 16:31:56 2017] Launched impl_1...
+Run output will be captured here: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:01:33 . Memory (MB): peak = 850.051 ; gain = 0.000
+reset_run synth_1
+reset_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 874.852 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+[Wed Feb 01 16:37:59 2017] Launched impl_1...
+Run output will be captured here: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:01:32 . Memory (MB): peak = 874.852 ; gain = 0.000
+reset_run synth_1
+reset_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 874.852 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+[Wed Feb 01 16:45:21 2017] Launched impl_1...
+Run output will be captured here: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:01:33 . Memory (MB): peak = 874.852 ; gain = 0.000
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 874.852 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274663487A
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+reset_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 976.469 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream
+[Wed Feb 01 17:02:32 2017] Launched impl_1...
+Run output will be captured here: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:01:33 . Memory (MB): peak = 976.469 ; gain = 0.000
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 976.469 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274663487A
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210274663487A
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost.
+ Targets(s) ", jsn-Nexys4-210274663487A" may be locked by another hw_server.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274663487A
+ERROR: [Labtools 27-2270] Target localhost:3121/xilinx_tcf/Digilent/210274663487A is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274663487A
+ERROR: [Labtools 27-2270] Target localhost:3121/xilinx_tcf/Digilent/210274663487A is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210274663951A}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274663951A
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 01 17:31:26 2017...

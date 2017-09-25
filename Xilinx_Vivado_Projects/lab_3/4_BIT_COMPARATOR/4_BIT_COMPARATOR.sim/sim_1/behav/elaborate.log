@@ -1,0 +1,14 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto bdb1e1e7d3a24fcb8cdf343eed8afba2 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Comparator_tb_behav xil_defaultlib.Comparator_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.four_BIT_COMPARATOR [four_bit_comparator_default]
+Compiling architecture behavioral of entity xil_defaultlib.comparator_tb
+Built simulation snapshot Comparator_tb_behav

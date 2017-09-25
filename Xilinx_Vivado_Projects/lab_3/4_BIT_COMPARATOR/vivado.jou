@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Feb 08 14:50:44 2017
+# Process ID: 4016
+# Current directory: H:/EECS_443/Xilinx_Vivado_Projects/lab_3/4_BIT_COMPARATOR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6824 H:\EECS_443\Xilinx_Vivado_Projects\lab_3\4_BIT_COMPARATOR\4_BIT_COMPARATOR.xpr
+# Log file: H:/EECS_443/Xilinx_Vivado_Projects/lab_3/4_BIT_COMPARATOR/vivado.log
+# Journal file: H:/EECS_443/Xilinx_Vivado_Projects/lab_3/4_BIT_COMPARATOR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/EECS_443/Xilinx_Vivado_Projects/lab_3/4_BIT_COMPARATOR/4_BIT_COMPARATOR.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config H:/EECS_443/Xilinx_Vivado_Projects/lab_3/4_BIT_COMPARATOR/Comparator_tb_behav.wcfg
+source Comparator_tb.tcl
+save_wave_config {H:/EECS_443/Xilinx_Vivado_Projects/lab_3/4_BIT_COMPARATOR/Comparator_tb_behav.wcfg}
+close_sim

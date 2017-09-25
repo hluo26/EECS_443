@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_443/Xilinx_Vivado_Projects/lab_3/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity four_BIT_COMPARATOR
+INFO: [VRFC 10-163] Analyzing VHDL file "H:/EECS_443/Xilinx_Vivado_Projects/lab_3/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sim_1/new/Comparator_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Comparator_tb

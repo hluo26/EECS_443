@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Feb 01 14:58:44 2017
+# Process ID: 6292
+# Current directory: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4468 H:\EECS_443\Xilinx_Vivado_Projects\lab_2\4_BIT_COMPARATOR\4_BIT_COMPARATOR.xpr
+# Log file: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/vivado.log
+# Journal file: H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.xpr
+update_compile_order -fileset sources_1
+remove_files H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/imports/lab_2/4_BIT_COMPARATOR.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+file mkdir H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new
+close [ open H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd w ]
+add_files H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+remove_files H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd w ]
+add_files H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.srcs/sources_1/new/four_BIT_COMPARATOR.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210274663951A}
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {H:/EECS_443/Xilinx_Vivado_Projects/lab_2/4_BIT_COMPARATOR/4_BIT_COMPARATOR.runs/impl_1/four_BIT_COMPARATOR.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
